@@ -1,0 +1,78 @@
+.users-list{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.users-list h3{
+    font-size: 25px;
+    left: 1
+}
+
+.users-list li{
+    padding: 1rem;
+    width: 18rem;
+    border: 1px solid #acacac;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: .5rem;
+}
+
+.users-list li p span{
+    color: #D3D3D3;
+    margin-bottom: 1rem;
+}
+
+.users-list p i{
+    margin-right: .5rem;
+}
+
+.users-list p{
+    margin-bottom: 1rem;
+}
+
+.users-list hr{
+    opacity: 30%;
+    margin: .5rem 0 1rem 0;
+}
+
+.users-list .button-delete{
+    cursor: pointer;
+    position: relative;
+    left: 70%;
+    padding: .5rem;
+    background: #D85D5D;
+    border: 1px solid #D93F3F;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.users-list .button-delete:hover{
+    background: #D93F3F;
+}
+
+.users-list .button-edit{
+    cursor: pointer;
+    position: relative;
+    left: 74%;
+    padding: .5rem;
+    background: #F6F6F6;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    color: #D3D3D3;
+    font-size: 1rem;
+}
+
+.users-list .button-edit:hover{
+    background-color: #e9e9e9;
+}
+
+@media only screen and (min-width: 768px){
+    .users-list li{
+        width: 21rem;
+    }
+}

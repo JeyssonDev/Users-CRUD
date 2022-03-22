@@ -1,0 +1,50 @@
+.title-page{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.create-user{
+    cursor: pointer;
+    background: #555A88;
+    width: 227px;
+    height: 45px;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem auto 1.5rem auto;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.create-user:hover{
+    background-color: #32375a;
+}
+
+.create-user i{
+    margin-right: .5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px){
+
+    .title-page{
+        position: relative;
+        right: 33vw;
+        top: 2rem;
+    }
+    
+    .create-user{
+        position: relative;
+        left: 29vw;
+        bottom: 1.5rem;
+    }
+}
